@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearfix{
+ content: "";
+ display: block;
+ clear: both;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.img{
+    max-width: 100%;
+}
+/* .container{
+   max-width: 1200px;
+    margin: auto;
+} */
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+/* Header section */
+.header-section{
+    background: #22c3a3;
+    display: inline-block;
+    width: 100%;
+    line-height: 60px;
+    margin-bottom: -5px;
+}
+.header-text h2{
+   color: #fff;
+   margin-left: 30px;
+}
+.header-menu {
+    margin-right: 30px;
+}
+
+.header-menu ul{
+    list-style: none;
+  
+}
+.header-menu ul li {
+    display: inline-block;
+    margin-left: -5px;
+   
+}
+.header-menu ul li a {
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+    padding: 9px 11px;
+}
+
+
+
+/* banner-section */
+.banner-section{
+    background: url(https://i.ibb.co/YNn1hN0/assfignmentj.png)no-repeat center center;
+    background-size:cover;
+    padding: 115px 100px;
+ }
+  .banner-section h2{
+      color: #fff;
+      font-size: 35px;
+      text-transform: uppercase;
+      font-weight:500;
+      margin-bottom: 20px;
+  }
+  .banner-section p{
+    color: #b3eee3;
+    font-size:20px ;
+    margin-bottom: 15px;
+  }
+  .banner-section a{
+      color:#b3eee3;
+      border: 3px solid #b3eee3;
+      padding: 10px 15px;
+      border-radius: 5px;
+  }
+  /* services-section */
+  .services-text{
+      padding: 50px 0;
+     
+  }
+  .services-text h2{
+    font-size: 30px;
+   margin-bottom: 20px;
+   font-weight: 500;
+  }
+  .services-text p{
+      color: gray;
+  }
+
+  .services-icon{
+    float: left;
+    width: 25%;
+    box-sizing: border-box;
+    padding: 10px 30px;
+
+  }
+  .services-icon{
+      padding: 10px 13px;
+  }
+   
+ .services-icon i{
+       color: #0dbf9b;
+       font-weight: 800;
+       font-size: 20px;
+       margin-bottom: 15px;
+   }
+.services-icon h2{
+    color: gray;  
+   }
+.services-icon p{
+       color: gray;
+       margin-top: 10px;
+   }
